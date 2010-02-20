@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{europe_vat_number_check}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tiago Pinto"]
@@ -19,9 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
+     "20100220_wsdl.xml",
      "LICENSE",
+     "README.markdown",
      "Rakefile",
      "VERSION",
+     "europe_vat_number_check.gemspec",
      "lib/europe_vat_number_check.rb",
      "lib/european_vat_number_validation.rb",
      "test/helper.rb",
