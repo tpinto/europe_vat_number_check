@@ -5,13 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "europe_vat_number_check"
-    gem.summary = %Q{European VAT Number Check}
+    gem.summary = %Q{European VAT Number Checker}
     gem.description = %Q{European VAT Number Check using http://ec.europa.eu/taxation_customs/vies/vieshome.do?selectedLanguage=EN}
     gem.email = "tpinto@webreakstuff.com"
     gem.homepage = "http://github.com/tpinto/europe_vat_number_check"
     gem.authors = ["Tiago Pinto"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
