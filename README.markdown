@@ -1,6 +1,10 @@
 # europe_vat_number_check
 
-Ya, description goes here.
+This project was an excuse to:
+ * remember how to create a Rubygem, publish it to Gemcutter and host it on Github
+ * remember how easy it is to use a soap webservice on Ruby
+
+I'm not sure about the Ruby semantic of the whole thing :/
 
 ## Example:
 
